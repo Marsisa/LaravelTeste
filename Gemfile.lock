@@ -10,3 +10,8 @@ GEM
       method_source (~> 0.8.1)
       slop (~> 3.4)
     rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.4)
+      rspec-support (~> 3.5.0)
