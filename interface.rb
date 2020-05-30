@@ -17,3 +17,7 @@ analysis.rank("top", "wind_speed", "./top_wind_speed.csv")
 analysis.rank_by_overall_score("top", "./top_overall_ranking.csv")
 
 # Bottom 15 for the three key attributes
+analysis.rank("bottom", "cloud_ceiling", "./bottom_cloud_ceiling.csv")
+analysis.rank("bottom", "visibility", "./bottom_visibility.csv")
+analysis.rank("bottom", "wind_speed", "./bottom_wind_speed.csv")
+analysis.rank_by_overall_score("bottom", "./bottom_overall_ranking.csv")
