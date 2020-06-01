@@ -14,3 +14,5 @@ class DataAnalysis
     add_wind_speed_rank
     add_overall_score
   end
+
+  def rank(condition, attribute, file)
