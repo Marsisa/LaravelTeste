@@ -16,3 +16,10 @@ class DataAnalysis
   end
 
   def rank(condition, attribute, file)
+    @sorted = @sorted.sort do |a, b|
+      case attribute
+      when "cloud_ceiling"
+        a[1][3] <=> b[1][3]
+      when "visibility"
+        a[1][4] <=> b[1][4]
+      when "wind_speed"
