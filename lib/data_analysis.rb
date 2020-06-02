@@ -23,3 +23,10 @@ class DataAnalysis
       when "visibility"
         a[1][4] <=> b[1][4]
       when "wind_speed"
+        a[1][5] <=> b[1][5]
+      else
+        raise "Invalid attribute"
+      end
+    end
+    if condition == "top"
+      sorted_array = @sorted[0..14]
