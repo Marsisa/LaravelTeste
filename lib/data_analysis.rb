@@ -33,3 +33,12 @@ class DataAnalysis
     elsif condition == "bottom"
       sorted_array = @sorted[-15..-1]
     else
+      raise "Invalid condition"
+    end
+    output(file, sorted_array)
+  end
+
+  def add_overall_score
+    @sorted.each do |scores|
+      rank = scores[1][3] + scores[1][4] + scores[1][5]
+      scores[1] << rank
