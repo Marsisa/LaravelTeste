@@ -30,3 +30,6 @@ class DataAnalysis
     end
     if condition == "top"
       sorted_array = @sorted[0..14]
+    elsif condition == "bottom"
+      sorted_array = @sorted[-15..-1]
+    else
