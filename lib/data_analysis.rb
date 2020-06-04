@@ -42,3 +42,7 @@ class DataAnalysis
     @sorted.each do |scores|
       rank = scores[1][3] + scores[1][4] + scores[1][5]
       scores[1] << rank
+    end
+  end
+
+  def rank_by_overall_score(condition, file)
