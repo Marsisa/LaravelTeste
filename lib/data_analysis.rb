@@ -65,3 +65,9 @@ class DataAnalysis
       csv << ["Airport", "Average Cloud Ceiling", "Average Visibility", "Average Wind Speed", "Cloud Ceiling Rank", "Visibility Rank", "Wind Speed Rank", "Overall Score"]
       array.each do |record|
         csv << record.flatten
+      end
+    end
+  end
+
+  def add_cloud_rank
+    @sorted = @data.sort_by {|airport, record| record[0]}.reverse!
