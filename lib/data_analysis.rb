@@ -46,3 +46,6 @@ class DataAnalysis
   end
 
   def rank_by_overall_score(condition, file)
+    sorted_array = @sorted.sort { |a, b| a[1][6] <=> b[1][6] }
+    print sorted_array
+    if condition == "top"
