@@ -49,3 +49,19 @@ class DataAnalysis
     sorted_array = @sorted.sort { |a, b| a[1][6] <=> b[1][6] }
     print sorted_array
     if condition == "top"
+      sorted_array = sorted_array[0..14]
+    elsif condition == "bottom"
+      sorted_array = sorted_array[-15..-1]
+    else
+      raise "Invalid condition"
+    end
+    output(file, sorted_array)
+  end
+
+  private
+
+  def output(file, array)
+    CSV.open(file, "wb") do |csv|
+      csv << ["Airport", "Average Cloud Ceiling", "Average Visibility", "Average Wind Speed", "Cloud Ceiling Rank", "Visibility Rank", "Wind Speed Rank", "Overall Score"]
+      array.each do |record|
+        csv << record.flatten
