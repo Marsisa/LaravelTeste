@@ -71,3 +71,7 @@ class DataAnalysis
 
   def add_cloud_rank
     @sorted = @data.sort_by {|airport, record| record[0]}.reverse!
+    i = 0
+    @sorted.each do |record|
+      i += 1
+      record[1] << i
