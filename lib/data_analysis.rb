@@ -75,3 +75,8 @@ class DataAnalysis
     @sorted.each do |record|
       i += 1
       record[1] << i
+    end
+  end
+
+  def add_visibility_rank
+    @sorted = @data.sort_by {|airport, record| record[1]}.reverse!
