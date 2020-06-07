@@ -86,3 +86,10 @@ class DataAnalysis
       record[1] << i
     end
   end
+
+  def add_wind_speed_rank
+    @sorted = @data.sort_by {|airport, record| record[2]}
+    i = 0
+    @sorted.each do |record|
+      i += 1
+      record[1] << i
