@@ -84,3 +84,5 @@ class DataAnalysis
     @sorted.each do |record|
       i += 1
       record[1] << i
+    end
+  end
