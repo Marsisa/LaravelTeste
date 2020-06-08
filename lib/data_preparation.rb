@@ -14,3 +14,6 @@ class DataPreparation
 
   def execute(file)
     File.readlines(file).each do |line|
+      airport = select_airport_key(line)
+      record = @record.new(line)
+      if @output[airport]
