@@ -17,3 +17,10 @@ class DataPreparation
       airport = select_airport_key(line)
       record = @record.new(line)
       if @output[airport]
+        @output[airport] << record.objectify
+      else
+        @output[airport] = [record.objectify]
+      end
+    end
+    metadata
+    dropRecords
