@@ -24,3 +24,9 @@ class DataPreparation
     end
     metadata
     dropRecords
+    puts "dp #{@output.length}"
+    @output
+  end
+
+  def metadata
+    @output.each_value do |v|
