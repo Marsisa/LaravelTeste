@@ -30,3 +30,14 @@ class DataPreparation
 
   def metadata
     @output.each_value do |v|
+      running_cloud_ceiling = 0
+      running_visibility = 0
+      running_wind_speed = 0
+      v.each do |record|
+        if record.cloud_ceiling
+          running_cloud_ceiling += record.cloud_ceiling
+        end
+        if record.visibility
+          running_visibility += record.visibility
+        end
+        if record.wind_speed
