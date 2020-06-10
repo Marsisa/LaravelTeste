@@ -41,3 +41,8 @@ class DataPreparation
           running_visibility += record.visibility
         end
         if record.wind_speed
+          running_wind_speed += record.wind_speed
+        end
+      end
+      average_cloud_ceiling = running_cloud_ceiling / v.length
+      average_visibility = running_visibility / v.length
