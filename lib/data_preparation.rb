@@ -51,3 +51,8 @@ class DataPreparation
       v.unshift(metadata)
     end
     @output
+  end
+
+  def dropRecords
+    @output.each_pair do |airport, records|
+      @output[airport] = records[0]
