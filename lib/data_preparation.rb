@@ -46,3 +46,8 @@ class DataPreparation
       end
       average_cloud_ceiling = running_cloud_ceiling / v.length
       average_visibility = running_visibility / v.length
+      average_wind_speed = running_wind_speed / v.length
+      metadata = [average_cloud_ceiling, average_visibility, average_wind_speed]
+      v.unshift(metadata)
+    end
+    @output
