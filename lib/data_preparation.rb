@@ -56,3 +56,11 @@ class DataPreparation
   def dropRecords
     @output.each_pair do |airport, records|
       @output[airport] = records[0]
+    end
+  end
+
+
+  def select_airport_key(string)
+    index = string =~ (/(?<!\w)(K+\w{3})(?!\w)/)
+    airport = string[index..index+3]
+    airport
