@@ -64,3 +64,6 @@ class DataPreparation
     index = string =~ (/(?<!\w)(K+\w{3})(?!\w)/)
     airport = string[index..index+3]
     airport
+  end
+
+end
