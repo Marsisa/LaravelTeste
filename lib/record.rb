@@ -22,3 +22,9 @@ class Record
   def extract_visibility
     index = @string =~ /(?<=\s)(\w{2}+SM)(?=\s)/
     if index
+      @visibility = @string[index..index+1].to_i
+    else
+      index = @string =~ /(?<=\s)(\w+SM)(?=\s)/
+      if index
+        @visibility = @string[index].to_i
+      else
