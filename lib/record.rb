@@ -12,3 +12,13 @@ class Record
 
   def objectify
     extract_visibility
+    extract_wind_speed
+    extract_cloud_ceiling
+    self
+  end
+
+  private
+
+  def extract_visibility
+    index = @string =~ /(?<=\s)(\w{2}+SM)(?=\s)/
+    if index
