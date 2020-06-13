@@ -5,3 +5,10 @@ class Record
 
   def initialize(string)
     @string = string
+    @visibility
+    @wind_speed
+    @cloud_ceiling
+  end
+
+  def objectify
+    extract_visibility
