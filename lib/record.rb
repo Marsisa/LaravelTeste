@@ -28,3 +28,6 @@ class Record
       if index
         @visibility = @string[index].to_i
       else
+        @visibility = 0
+      end
+    end
