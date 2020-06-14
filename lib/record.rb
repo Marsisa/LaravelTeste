@@ -39,3 +39,12 @@ class Record
       @wind_speed = @string[index..index+1].to_i
     else
       @wind_speed = nil
+    end
+  end
+
+  def extract_cloud_ceiling
+    index = @string =~ /(?<=\w{3})(\d{3})(?=\s)/
+    if index
+      @cloud_ceiling = "#{@string[index..index+2]}00".to_i
+    else
+      @cloud_ceiling = 12000
