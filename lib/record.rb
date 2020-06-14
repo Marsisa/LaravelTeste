@@ -31,3 +31,11 @@ class Record
         @visibility = 0
       end
     end
+  end
+
+  def extract_wind_speed
+    index = @string =~ /(\d{2})(?=KT)/
+    if index
+      @wind_speed = @string[index..index+1].to_i
+    else
+      @wind_speed = nil
