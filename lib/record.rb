@@ -48,3 +48,7 @@ class Record
       @cloud_ceiling = "#{@string[index..index+2]}00".to_i
     else
       @cloud_ceiling = 12000
+    end
+  end
+
+end
