@@ -12,3 +12,8 @@ describe DataAnalysis do
     data.execute(file1)
     expect(data_analysis.rank("top", "cloud_ceiling", file2).length).to eq(15)
   end
+
+  it "should output 15 records" do
+    data.execute(file1)
+    expect(data_analysis.rank("bottom", "visibility", file2).length).to eq(15)
+  end
