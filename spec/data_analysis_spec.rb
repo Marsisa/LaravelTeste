@@ -9,3 +9,6 @@ describe DataAnalysis do
   file2 = './sample-output.csv'
 
   it "should output 15 records" do
+    data.execute(file1)
+    expect(data_analysis.rank("top", "cloud_ceiling", file2).length).to eq(15)
+  end
