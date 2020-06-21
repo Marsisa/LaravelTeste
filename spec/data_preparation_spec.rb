@@ -5,3 +5,6 @@ require 'record'
 describe DataPreparation do
 
   let(:data_preparation) { described_class.new(Record) }
+  file = './sample.txt'
+
+  it "should initialize with an empty hash" do
