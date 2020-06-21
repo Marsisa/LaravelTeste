@@ -17,3 +17,5 @@ describe DataAnalysis do
     data.execute(file1)
     expect(data_analysis.rank("bottom", "visibility", file2).length).to eq(15)
   end
+
+end
