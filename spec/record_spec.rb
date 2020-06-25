@@ -18,3 +18,9 @@ describe Record do
   it 'should add a 2 digit number to property "wind_speed"' do
     record.objectify
     expect(record.wind_speed).to be(05)
+  end
+
+  it 'should add a 3 digit number to property "cloud_ceiling"' do
+    record.objectify
+    expect(record.cloud_ceiling).to be(3000)
+  end
