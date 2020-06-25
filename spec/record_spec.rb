@@ -14,3 +14,7 @@ describe Record do
     record.objectify
     expect(record.visibility).to be(10)
   end
+
+  it 'should add a 2 digit number to property "wind_speed"' do
+    record.objectify
+    expect(record.wind_speed).to be(05)
