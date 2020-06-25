@@ -24,3 +24,8 @@ describe Record do
     record.objectify
     expect(record.cloud_ceiling).to be(3000)
   end
+
+  it 'should add a number to property "cloud_ceiling"' do
+    record.objectify
+    expect(record.cloud_ceiling).to be(3000)
+  end
