@@ -1,3 +1,3 @@
 require 'data_preparation'
 require 'record'
-require 'data_analy
+require 'data_analysi
