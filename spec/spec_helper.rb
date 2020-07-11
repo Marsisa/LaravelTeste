@@ -3,4 +3,4 @@ require 'record'
 require 'data_analysis'
 
 RSpec.configure do |config|
-  # rspec-e
+  # rspec-expectatio
