@@ -10,4 +10,4 @@ RSpec.configure do |config|
     # This option will default to `true` in RSpec 4. It makes the `description`
     # and `failure_message` of custom matchers include text for helper methods
     # defined using `chain`, e.g.:
-    #     b
+    #     be_bigg
