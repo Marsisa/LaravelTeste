@@ -13,4 +13,4 @@ RSpec.configure do |config|
     #     be_bigger_than(2).and_smaller_than(4).description
     #     # => "be bigger than 2 and smaller than 4"
     # ...rather than:
-   
+    #   
