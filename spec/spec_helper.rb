@@ -14,4 +14,4 @@ RSpec.configure do |config|
     #     # => "be bigger than 2 and smaller than 4"
     # ...rather than:
     #     # => "be bigger than 2"
-    expectations.include_chai
+    expectations.include_chain_clause
