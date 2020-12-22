@@ -18,4 +18,4 @@ RSpec.configure do |config|
   end
 
   # rspec-mocks config goes here. You can use an alternate test double
-  # library (such as bogus or mocha) by changing the `mock_wi
+  # library (such as bogus or mocha) by changing the `mock_with` opt
