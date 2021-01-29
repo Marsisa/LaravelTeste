@@ -21,4 +21,4 @@ RSpec.configure do |config|
   # library (such as bogus or mocha) by changing the `mock_with` option here.
   config.mock_with :rspec do |mocks|
     # Prevents you from mocking or stubbing a method that does not exist on
-    # a real object. This is generally recommended, a
+    # a real object. This is generally recommended, and wi
