@@ -26,4 +26,4 @@ RSpec.configure do |config|
     mocks.verify_partial_doubles = true
   end
 
-  # This 
+  # This option
