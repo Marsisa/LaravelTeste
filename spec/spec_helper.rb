@@ -27,4 +27,4 @@ RSpec.configure do |config|
   end
 
   # This option will default to `:apply_to_host_groups` in RSpec 4 (and will
-  # have no way to turn it off 
+  # have no way to turn it off -- t
