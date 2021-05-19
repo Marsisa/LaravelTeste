@@ -30,4 +30,4 @@ RSpec.configure do |config|
   # have no way to turn it off -- the option exists only for backwards
   # compatibility in RSpec 3). It causes shared context metadata to be
   # inherited by the metadata hash of host groups and examples, rather than
-  # t
+  # trigg
