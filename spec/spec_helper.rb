@@ -39,4 +39,4 @@ RSpec.configure do |config|
   # This allows you to limit a spec run to individual examples or groups
   # you care about by tagging them with `:focus` metadata. When nothing
   # is tagged with `:focus`, all examples get run. RSpec also provides
-  # aliases for `it`, `describe`, and `conte
+  # aliases for `it`, `describe`, and `context` that include
