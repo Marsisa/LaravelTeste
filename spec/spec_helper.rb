@@ -40,4 +40,4 @@ RSpec.configure do |config|
   # you care about by tagging them with `:focus` metadata. When nothing
   # is tagged with `:focus`, all examples get run. RSpec also provides
   # aliases for `it`, `describe`, and `context` that include `:focus`
-  # metadata: `fit`, `fdescribe` and `f
+  # metadata: `fit`, `fdescribe` and `fcontext
