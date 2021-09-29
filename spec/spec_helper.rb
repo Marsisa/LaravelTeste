@@ -43,4 +43,4 @@ RSpec.configure do |config|
   # metadata: `fit`, `fdescribe` and `fcontext`, respectively.
   config.filter_run_when_matching :focus
 
-  # Allows RSpec to persis
+  # Allows RSpec to persist so
