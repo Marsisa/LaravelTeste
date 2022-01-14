@@ -55,4 +55,4 @@ RSpec.configure do |config|
   #   - http://rspec.info/blog/2014/05/notable-changes-in-rspec-3/#zero-monkey-patching-mode
   config.disable_monkey_patching!
 
-  # This setting enables warnings. It's reco
+  # This setting enables warnings. It's recommen
