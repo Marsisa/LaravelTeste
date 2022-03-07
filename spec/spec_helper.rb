@@ -56,4 +56,5 @@ RSpec.configure do |config|
   config.disable_monkey_patching!
 
   # This setting enables warnings. It's recommended, but in some cases may
-  # be too noisy due to issues in dependencie
+  # be too noisy due to issues in dependencies.
+ 
