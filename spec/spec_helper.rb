@@ -59,4 +59,4 @@ RSpec.configure do |config|
   # be too noisy due to issues in dependencies.
   config.warnings = true
 
-  # Many RSpec us
+  # Many RSpec users 
