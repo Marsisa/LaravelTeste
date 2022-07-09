@@ -60,4 +60,5 @@ RSpec.configure do |config|
   config.warnings = true
 
   # Many RSpec users commonly either run the entire suite or an individual
-  # file, and it's useful to allow more verbose output when running
+  # file, and it's useful to allow more verbose output when running an
+ 
