@@ -64,4 +64,4 @@ RSpec.configure do |config|
   # individual spec file.
   if config.files_to_run.one?
     # Use the documentation formatter for detailed output,
-    # unless a formatter has alr
+    # unless a formatter has alread
