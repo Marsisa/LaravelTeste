@@ -65,4 +65,4 @@ RSpec.configure do |config|
   if config.files_to_run.one?
     # Use the documentation formatter for detailed output,
     # unless a formatter has already been configured
-    # (e.g.
+    # (e.g. via a co
