@@ -70,4 +70,4 @@ RSpec.configure do |config|
   end
 
   # Print the 10 slowest examples and example groups at the
-  # end of the sp
+  # end of the spec run, to
