@@ -71,4 +71,4 @@ RSpec.configure do |config|
 
   # Print the 10 slowest examples and example groups at the
   # end of the spec run, to help surface which specs are running
-  # particularl
+  # particularly slow.
