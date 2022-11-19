@@ -74,4 +74,4 @@ RSpec.configure do |config|
   # particularly slow.
   config.profile_examples = 10
 
-  # Run specs i
+  # Run specs in random
