@@ -74,4 +74,5 @@ RSpec.configure do |config|
   # particularly slow.
   config.profile_examples = 10
 
-  # Run specs in random order to surface order dependencies. If you find 
+  # Run specs in random order to surface order dependencies. If you find an
+  #
